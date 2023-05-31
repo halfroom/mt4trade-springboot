@@ -1,0 +1,17 @@
+mt4:
+  servers:
+    - name: server1
+      ip: 127.0.0.1
+      port: 12345
+      username: username1
+      password: password1
+    - name: server2
+      ip: 127.0.0.1
+      port: 12346
+      username: username2
+      password: password2
+  currencyPairs:
+    - EURUSD
+    - GBPUSD
+  telegramBotToken: your_telegram_bot_token
+  discordWebhookUrl: your_discord_webhook_url
